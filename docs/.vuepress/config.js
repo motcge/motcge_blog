@@ -11,8 +11,8 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: 'Android', link: '/Android/test' },
-      {text: 'SpringBoot', link: '/SpringBoot/test'},
+      {text: 'Android', link: '/Android/main' },
+      {text: 'SpringBoot', link: '/SpringBoot/main'},
     ],
     sidebar: {
       '/views/':[
@@ -21,18 +21,28 @@ module.exports = {
           title:'Android',
           collapsable:true,
           children:[
-            'Android/test'
+            'Android/main',
           ]
         },
         {
           title:'SpringBoot',
           collapsable:true,
           children:[
-            'SpringBoot/test'
+            'SpringBoot/main',
+            'SpringBoot/fileUpAndDownload'
+          ]
+        },
+        {
+          title:'Vue',
+          collapsable:true,
+          children:[
+            'Vue/main',
+            'Vue/tips'
           ]
         }
       ]
     }, // 侧边栏配置
     sidebarDepth: 2, // 侧边栏显示2级
+    lastUpdated: 'Last Updated',
   }
 };
