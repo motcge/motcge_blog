@@ -39,6 +39,13 @@ module.exports = {
             'Vue/main',
             'Vue/tips'
           ]
+        },
+        {
+          title:'API',
+          collapsable:true,
+          children:[
+            'API/chinaMobileMasAPI'
+          ]
         }
       ]
     }, // 侧边栏配置
