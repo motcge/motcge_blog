@@ -15,7 +15,7 @@ isShowComments: false
 
 1. 首先需要以下四个文件
 
-![jar包](./image/chinaMobileMasAPI/1.png)  
+![jar包](./image/chinaMobileMasAPI/1.png "jar包")  
 在项目目录下新建lib文件夹将四个文件放入  
 打开项目配置将lib文件夹包括进去  
 ![项目配置](./image/chinaMobileMasAPI/2.png)

@@ -29,7 +29,9 @@ module.exports = {
           collapsable:true,
           children:[
             'SpringBoot/main',
-            'SpringBoot/fileUpAndDownload'
+            'SpringBoot/fileUpAndDownload',
+            'SpringBoot/redisConfig',
+            'SpringBoot/encryption'
           ]
         },
         {
@@ -45,6 +47,23 @@ module.exports = {
           collapsable:true,
           children:[
             'API/chinaMobileMasAPI'
+          ]
+        },
+        {
+          title:'uni-app',
+          collapsable:true,
+          children:[
+            'uni-app/main',
+            'uni-app/tips'
+          ]
+        },
+        {
+          title:'SoftWareConfig',
+          collapsable:true,
+          children:[
+            'SoftWareConfig/main',
+            'SoftWareConfig/IDEA',
+            'SoftWareConfig/Maven'
           ]
         }
       ]
