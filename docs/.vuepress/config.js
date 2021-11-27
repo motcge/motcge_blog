@@ -22,6 +22,7 @@ module.exports = {
           collapsable:true,
           children:[
             'Android/main',
+            'Android/WebViewProblem'
           ]
         },
         {
@@ -31,7 +32,8 @@ module.exports = {
             'SpringBoot/main',
             'SpringBoot/fileUpAndDownload',
             'SpringBoot/redisConfig',
-            'SpringBoot/encryption'
+            'SpringBoot/encryption',
+            'SpringBoot/https'
           ]
         },
         {
